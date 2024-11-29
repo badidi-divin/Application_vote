@@ -1,0 +1,36 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1em;
+    color: #333333;
+    margin-top: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 1.5cm;
+    margin-left: 2cm
+}
+.list-group-item{
+    font-size: 1em;
+}
+.badge .badge-info{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+address{
+    font-size: 1em;
+}
+li{
+    font-size: 1em;
+}
+li>i{
+    font-size: 1em;
+}
+dt{
+    float: left;
+    margin-left: auto;
+}
+dd{
+    margin-left: auto;
+}
+dl{
+    display: block;
+}

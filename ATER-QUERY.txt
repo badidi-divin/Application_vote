@@ -1,0 +1,11 @@
+//LIGNE DE COMMANDE EN DOUBLE
+-----------------------------
+
+ALTER TABLE `t_ligne_cmd` CHANGE `prix_unit` `prix_unit` DOUBLE, CHANGE `prix_total` `prix_total` DOUBLE NOT NULL, 
+CHANGE `mont_rendu` `mont_rendu` DOUBLE NOT NULL, CHANGE `montant_rendu` `montant_rendu` DOUBLE NOT NULL, 
+CHANGE `total_fact` `total_fact` DOUBLE NOT NULL;
+
+//PANIER EN DOUBLE
+-----------------------------
+
+ALTER TABLE `t_panier` CHANGE `prix_unit` `prix_unit` DOUBLE NOT NULL;
